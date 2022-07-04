@@ -22,13 +22,10 @@ export default function AppUser({navigation}) {
           //password:password,
         })
         .then(function (res) {
-          //setLoading(true)
-          // handle success
           console.log(res);
           alert("Cadastro Realizado com Sucesso");
         })
         .catch(function (e) {
-          // handle error
           console.log(e);
           alert(e.message);
         })
