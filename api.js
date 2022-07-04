@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseUrl: 'https://api-missoes-urbanas.herokuapp.com'
+    baseUrl: 'https://apiceet.herokuapp.com/'
 });
 
 export default api;
